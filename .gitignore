@@ -1,0 +1,19 @@
+# Local backups
+*.backup-*
+*.bak
+__pycache__/
+.DS_Store
+
+# Local backups
+backups/
+*.backup-*
+README-local.txt
+
+# Server environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.DS_Store
